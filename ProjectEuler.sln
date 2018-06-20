@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerLib", "EulerLib\EulerLib.csproj", "{D7BD7029-C0D9-4198-A6D1-F99D41BFFB9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libraries", "Libraries\Libraries.csproj", "{AB7AC36C-5BF7-4538-ABBB-66E7235ECC35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerProjects", "EulerProjects\Projects.csproj", "{FF9307D4-9E68-4A7D-8EBF-558A36DF9360}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DailyProgrammer", "DailyProgrammer\DailyProgrammer.csproj", "{2D61C0C3-70B9-4099-A3DB-56109E8C59DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Launcher", "Launcher\Launcher.csproj", "{36ED36A4-DB80-4255-A478-069C5C6FBAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectEuler", "ProjectEuler\ProjectEuler.csproj", "{FF9307D4-9E68-4A7D-8EBF-558A36DF9360}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +17,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D7BD7029-C0D9-4198-A6D1-F99D41BFFB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7BD7029-C0D9-4198-A6D1-F99D41BFFB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7BD7029-C0D9-4198-A6D1-F99D41BFFB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7BD7029-C0D9-4198-A6D1-F99D41BFFB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7AC36C-5BF7-4538-ABBB-66E7235ECC35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7AC36C-5BF7-4538-ABBB-66E7235ECC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7AC36C-5BF7-4538-ABBB-66E7235ECC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7AC36C-5BF7-4538-ABBB-66E7235ECC35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D61C0C3-70B9-4099-A3DB-56109E8C59DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D61C0C3-70B9-4099-A3DB-56109E8C59DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D61C0C3-70B9-4099-A3DB-56109E8C59DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D61C0C3-70B9-4099-A3DB-56109E8C59DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36ED36A4-DB80-4255-A478-069C5C6FBAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36ED36A4-DB80-4255-A478-069C5C6FBAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36ED36A4-DB80-4255-A478-069C5C6FBAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36ED36A4-DB80-4255-A478-069C5C6FBAB8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF9307D4-9E68-4A7D-8EBF-558A36DF9360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF9307D4-9E68-4A7D-8EBF-558A36DF9360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF9307D4-9E68-4A7D-8EBF-558A36DF9360}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -24,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8AE0E32-A6A0-42BC-95FF-6D8B211F28F7}
 	EndGlobalSection
 EndGlobal
