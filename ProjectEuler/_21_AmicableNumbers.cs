@@ -9,7 +9,7 @@ namespace Projects
 {
     public class _21_AmicableNumbers : Challenge
     {
-        public string Solve()
+        public override string Solve()
         {
             int x;
             List<int> amicableList = new List<int>();
