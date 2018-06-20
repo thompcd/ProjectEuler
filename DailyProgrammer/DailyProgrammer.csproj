@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_361_TallyProgram.cs" />
     <Compile Include="_363_IBeforeE.cs" />
+    <Compile Include="_384_CreateADiceRoller.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Libraries\Libraries.csproj">

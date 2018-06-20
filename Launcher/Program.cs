@@ -9,14 +9,13 @@ namespace Launcher
     {
         static void Main(string[] args)
         {
-            string input = "EbAAdbBEaBaaBBdAccbeebaec";
+            while (true)
+            {
+                var test = new _384_CreateADiceRoller();
+                Console.WriteLine(test.Solve());
+                Console.ReadKey();
+            }
 
-            var test = new _361_TallyProgram();
-
-            test.LoadParameters(input);
-            
-            Console.WriteLine(test.Solve());
-            Console.ReadKey();
         }
     }
 }
