@@ -7,7 +7,7 @@ using Libraries;
 
 namespace DailyProgrammer
 {
-    public class _361_TallyProgram : Challenge
+    public class _361_TallyProgram : DailyProgrammerChallenge
     {
         //challenge input
 

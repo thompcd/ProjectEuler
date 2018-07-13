@@ -7,7 +7,7 @@ using Libraries;
 
 namespace Projects
 {
-    public class _21_AmicableNumbers : Challenge
+    public class _21_AmicableNumbers : ProjectEulerChallenge
     {
         public override string Solve()
         {

@@ -3,14 +3,48 @@ using System.Collections.Generic;
 
 namespace Libraries
 {
-    public abstract class Challenge
+    public interface Challenge
     {
-        public virtual void LoadParameters<T>(IEnumerable<T> input){}
-        public virtual void LoadParameters(string input) { }
-        public virtual void LoadParameters(int input) { }
-        public virtual void LoadParameters(double input) { }
-        public virtual void LoadParameters(object input) { }
+        void LoadParameters<T>(IEnumerable<T> input);
 
-        public virtual string Solve(){throw new NotImplementedException();}
+        void LoadParameters<T>(T input);
+
+        string Solve();
+    }
+
+    public abstract class DailyProgrammerChallenge : Challenge
+    {
+        public virtual void LoadParameters<T>(IEnumerable<T> input)
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual void LoadParameters<T>(T input)
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual string Solve()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public abstract class ProjectEulerChallenge : Challenge
+    {
+        public virtual void LoadParameters<T>(IEnumerable<T> input)
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual void LoadParameters<T>(T input)
+        {
+            throw new NotImplementedException();
+        }
+
+        public virtual string Solve()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
